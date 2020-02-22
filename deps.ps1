@@ -41,24 +41,24 @@ choco install curl                --limit-output
 choco install nuget.commandline   --limit-output
 choco install webpi               --limit-output
 choco install git.install         --limit-output -params '"/GitAndUnixToolsOnPath /NoShellIntegration"'
-choco install nvm.portable        --limit-output
-choco install python              --limit-output
-choco install ruby                --limit-output
 
 #fonts
 choco install sourcecodepro       --limit-output
+choco install firacode            --limit-output
+choco install cascadiacode        --limit-output
 
 # browsers
 choco install GoogleChrome        --limit-output; <# pin; evergreen #> choco pin add --name GoogleChrome        --limit-output
-choco install GoogleChrome.Canary --limit-output; <# pin; evergreen #> choco pin add --name GoogleChrome.Canary --limit-output
 choco install Firefox             --limit-output; <# pin; evergreen #> choco pin add --name Firefox             --limit-output
-choco install Opera               --limit-output; <# pin; evergreen #> choco pin add --name Opera               --limit-output
 
 # dev tools and frameworks
-choco install atom                --limit-output; <# pin; evergreen #> choco pin add --name Atom                --limit-output
-choco install Fiddler             --limit-output
-choco install vim                 --limit-output
-choco install winmerge            --limit-output
+choco install vscode              --limit-output
+choco install discord.install     --limit-output
+choco install slack               --limit-output
+choco install musicbee            --limit-output
+choco install everything          --limit-output
+choco install jetbrainstoolbox    --limit-output
+choco install steam               --limit-output
 
 Refresh-Environment
 

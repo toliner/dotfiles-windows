@@ -101,3 +101,7 @@
 
 [credential]
     helper = manager
+
+[user]
+    name = toliner
+    email = contact@toliner.dev
